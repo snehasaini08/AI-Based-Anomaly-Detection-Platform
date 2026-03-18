@@ -13,6 +13,7 @@ Instead of relying on fixed limits, it learns patterns from data and detects ano
 📊 Detection & Response :
 
 When an abnormal condition is detected:
+
 The event is recorded in a PostgreSQL database
 It is immediately reflected on a Flask-based dashboard
 Alerts are triggered to ensure quick attention and response
